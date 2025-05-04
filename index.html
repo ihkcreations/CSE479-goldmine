@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSE 479 Gold Miner Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Gold Miner Game</h1>
+  <div id="controls">
+    <label for="gridSize">Grid Size:</label>
+    <input type="number" id="gridSize" value="12" min="5" max="20" step="1" />
+    <button onclick="initGame()">Start Game</button>
+  </div>
+
+  <div id="grid-container">
+    <div id="grid"></div>
+    <div class="credits-container">
+        CSE479 (Web Programming) <br>
+        Spring 2025 <br>
+        <hr>
+        Md. Iftekhar Hossain Khan <br>
+        2020-3-60-073 <br>
+        <hr>
+        <strong>East West University</strong> <br>
+    </div>
+  </div>
+
+  <div id="message"></div>
+  <div id="attempts"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
